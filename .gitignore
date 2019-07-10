@@ -1,0 +1,4 @@
+# Ignore the Virtual Env to be added to Git Repo
+# Its cleaner to get a requirements.txt using pip freeze to install dependencies.
+/py3env
+Implement.txt
