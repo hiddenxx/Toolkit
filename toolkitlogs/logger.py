@@ -4,7 +4,7 @@ import sys
 from logging.handlers import TimedRotatingFileHandler
 
 FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(funcName)s - %(message)s")
-LOG_FILE = "my_app.log"
+LOG_FILE = "/hiddenx/Toolkit/toolkitlogs/logs/my_app.log"
 
 def get_console_handler():
 	console_handler = logging.StreamHandler(sys.stdout)
@@ -19,7 +19,7 @@ def get_file_handler():
 def get_logger(logger_name):
 	logger = logging.getLogger(logger_name)
 
-	logger.setLevel(logging.DEBUG) # better to have too much log than not enough
+	logger.setLevel(logging.WARN) # better to have too much log than not enough
 
 	logger.addHandler(get_console_handler())
 	logger.addHandler(get_file_handler())

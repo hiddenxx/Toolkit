@@ -6,3 +6,6 @@ my_app.log
 /__pycache__
 token.pickle
 credentials.json
+client_secrets.json
+/toolkitlogs/my_app.log
+mycreds.txt

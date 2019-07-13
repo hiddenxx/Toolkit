@@ -3,6 +3,8 @@ from __future__ import print_function
 import logger
 import pickle
 import os.path
+import menu
+import pydrive
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -11,7 +13,8 @@ from googleapiclient.http import *
 logger = logger.get_logger(__name__)
 MimeType = {"folders":"application/vnd.google-apps.folder","images":"image/jpeg",
             "spreadsheet":"application/vnd.google-apps.spreadsheet","text":"text/plain"}
-class GoogleUploader():
+
+class Toolkit(pydrive):
     def __init__(self):
         self.SCOPES = ['https://www.googleapis.com/auth/drive']
         self.service = None
@@ -45,53 +48,32 @@ class GoogleUploader():
         logger.info("Authentication Process completed.")
         return self.service
 
-        # # Call the Drive v3 API
-        # results = service.files().list(fields="nextPageToken, files(id, name)").execute()
-        # items = results.get('files', [])
-        #
-        # if not items:
-        #     print('No files found.')
-        # else:
-        #     print('Files:')
-        #     for item in items:
-        #         print(u'{0} ({1})'.format(item['name'], item['id']))
-    def service_driver(self,q="folders"):
-        # A Service driver for different Mime Types and Uploaders and Fetchers will be here.
-        # Mimetype is used to identify the folder or file.
-        # Spaces is where it checks.
-        # Fields nextpagetoken is required to go till EOF searching.
-        # Files(id,name) is used to get the file ID and Name.
-        def google_drive_menu(args):
-            switcher = {
-            1: google_drive_uploader(),
-            2: google_drive_rootUpdate()
 
-            }
-            return swicher.get(args,google_drive_menu)
+    def google_drive_rootUpdate(self):
+        self.response = self.service.files().list().execute()
+        self.google_drive_printer()
 
-        def google_drive_rootUpdate(self):
-            self.response = self.service.files().list(q="'root' in parents",fields='nextPageToken, files(id, name)',pageToken=self.page_token).execute()
+    def google_drive_uploader(self):
+        logger.info("Starting Drive Uploader.")
+        if not self.file_path:
+            self.file_path = input("Please input the file path or Drag and Drop the file into the Console.")
 
-        def google_drive_uploader(self):
-            if not self.file_path:
-                self.file_path = input("Please input the file path or Drag and Drop the file into the Console.")
-
-            logger.info(f"{os.path.basename(self.file_path)} is in {self.file_path}")
-            file_metadata = {'name': os.path.basename(self.file_path)}
-            media = MediaFileUpload(os.path.basename(self.file_path))
-            file = self.service.files().create(body=file_metadata,
-                                                media_body=media,
-                                                fields='id,name,mimeType').execute()
-            print ('File ID: %s' % file.get('id'))
-            if not file:
-                print(f"{os.path.basename} upload failed.", sep=' ', end='n', file=sys.stdout, flush=False)
-                logger.info(f"{os.path.basename} Upload Failed.")
-
+        logger.info(f"{os.path.basename(self.file_path)} is in {self.file_path}")
+        file_metadata = {'name': os.path.basename(self.file_path)}
+        media = MediaFileUpload(os.path.basename(self.file_path))
+        file = self.service.files().create(body=file_metadata,
+                                            media_body=media,
+                                            fields='id,name,mimeType').execute()
+        logger.info(f"File Name: {file.get('name')} File ID: {file.get('id')} MimeType: {file.get('mimeType')} - Uploaded.")
+        if not file:
+            print(f"{os.path.basename} Upload failed.", sep=' ', end='n', file=sys.stdout, flush=False)
+            logger.info(f"{os.path.basename} Upload Failed.")
         # logger.info(f"Starting a Query for {q}")
         # self.response = self.service.files().list(q=f"mimeType='{MimeType[q]}'",
         #                                   spaces='drive',
         #                                   fields='nextPageToken, files(id, name)',
         #                                   pageToken=self.page_token).execute()
+
         return self.response
 
     def google_drive_printer(self):
@@ -101,12 +83,24 @@ class GoogleUploader():
             self.page_token = self.response.get('nextPageToken', None)
             if self.page_token is None:
                 break
-    def google_drive_fileUploader(self):
-        pass
 
+def Return():
+    return
+
+def Exit():
+    print("\n\tThanks for using my program!\n")
 
 if __name__ == '__main__':
-    googleObj = GoogleUploader()
-    googleObj.google_drive_authenticator()
-    googleObj.service_driver(q="folders")
-    googleObj.google_drive_printer()
+    mmObj = menu.Menu()
+    mmObj.setPrompt("Select an Option\n")
+
+    googleMenu = menu.Menu()
+    googleObj = Toolkit()
+    googleMenu.setPrompt("Select an Option\n")
+    googleMenu.addOption(1,"Google Drive File Uploader",googleObj.google_drive_uploader,False)
+    googleMenu.addOption(2,"Google Drive Root Updater",googleObj.google_drive_rootUpdate,False)
+    googleMenu.addOption(3,"Return",Return,True)
+
+    mmObj.addOption(1,"Google Drive Toolkit",googleMenu,False)
+    mmObj.addOption(2,"Exit",Exit,True)
+    mmObj.run()
