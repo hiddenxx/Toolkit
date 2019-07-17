@@ -1,0 +1,344 @@
+2019-07-13 00:19:49,743 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:19:49,743 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:19:49,746 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:19:50,073 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:20:14,741 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:20:14,741 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:20:14,743 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:20:14,935 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:21:06,007 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:21:06,008 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:21:06,011 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:21:06,424 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:22:05,623 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:22:05,623 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:22:05,625 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:22:05,938 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:23:50,839 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:23:50,840 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:23:50,842 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:23:51,034 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:24:01,443 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:24:01,443 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:24:01,445 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:24:01,661 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 00:24:35,487 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 00:24:35,487 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 00:24:35,489 - __main__ - INFO - authenticate - Authorizing Saved credentials.
+2019-07-13 00:24:35,684 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:26:32,123 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:26:32,123 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:26:32,125 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:27:22,115 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:27:22,115 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:27:22,117 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:29:22,702 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:29:22,702 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:29:22,704 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:29:22,705 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:29:22,705 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:29:58,294 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:29:58,294 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:29:58,297 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:29:58,297 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:29:58,298 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:31:43,562 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:31:43,562 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:31:43,564 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:31:43,564 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:31:43,565 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:32:14,820 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:32:14,820 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:32:14,823 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:32:14,823 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:32:14,823 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:41:40,673 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:41:40,674 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:41:40,676 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:41:40,676 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:41:40,676 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:42:11,864 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:42:11,864 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:42:11,866 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:42:11,866 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:42:11,866 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:42:49,263 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:42:49,263 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:42:49,265 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:42:49,265 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:42:49,266 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:43:10,265 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:43:10,265 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:43:10,267 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:43:10,268 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:43:10,268 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:43:35,603 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:43:35,603 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:43:35,605 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:43:35,605 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:43:35,605 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:43:37,278 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 01:43:37,278 - __main__ - INFO - get_folders - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 01:43:37,278 - __main__ - INFO - get_folders - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 01:43:37,278 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 01:43:37,278 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 01:43:37,279 - __main__ - INFO - get_folders - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 01:43:37,280 - __main__ - INFO - get_folders - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 01:46:03,266 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:46:03,266 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:46:03,268 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:46:03,268 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:46:03,269 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:46:05,185 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 01:46:05,185 - __main__ - INFO - get_folders - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 01:46:05,186 - __main__ - INFO - get_folders - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 01:46:05,186 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 01:46:05,186 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 01:46:05,186 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 01:46:05,187 - __main__ - INFO - get_folders - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 01:46:05,188 - __main__ - INFO - get_folders - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 01:46:05,188 - __main__ - INFO - get_folders - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 01:46:21,232 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:46:21,232 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:46:21,235 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:46:21,236 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:46:21,236 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:46:54,224 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:46:54,224 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:46:54,227 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:46:54,227 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:46:54,227 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:49:27,971 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:49:27,972 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:49:27,975 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:49:27,975 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:49:27,976 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 01:49:51,911 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 01:49:51,912 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 01:49:51,915 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 01:49:51,915 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 01:49:51,916 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:00:49,024 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:00:49,024 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:00:49,027 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:00:49,027 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:00:49,027 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:01:20,961 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:01:20,962 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:01:20,964 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:01:20,965 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:01:20,965 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:01:40,654 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:01:40,654 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:01:40,656 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:01:40,657 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:01:40,657 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:02:23,224 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:02:23,224 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:02:23,226 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:02:23,226 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:02:23,226 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:02:41,961 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:02:41,962 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:02:41,965 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:02:41,965 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:02:41,966 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:02:51,867 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:02:51,867 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:02:51,869 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:02:51,869 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:02:51,869 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:04:18,871 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:04:18,872 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:04:18,874 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:04:18,874 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:04:18,874 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:04:28,561 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:04:28,561 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:04:28,564 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:04:28,564 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:04:28,564 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:04:37,928 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:04:37,928 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:04:37,930 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:04:37,930 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:04:37,930 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:05:17,238 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:05:17,238 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:05:17,240 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:05:17,241 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:05:17,241 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:05:41,513 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:05:41,514 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:05:41,516 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:05:41,516 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:05:41,516 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:06:11,145 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:06:11,145 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:06:11,147 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:06:11,147 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:06:11,148 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:06:19,739 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:06:19,739 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:06:19,742 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:06:19,743 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:06:19,743 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:09:51,303 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:09:51,303 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:09:51,305 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:09:51,305 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:09:51,305 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:12:12,288 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:12:12,289 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:12:12,291 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:12:12,291 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:12:12,291 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:12:25,402 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:12:25,403 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:12:25,405 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:12:25,405 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:12:25,405 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:12:40,884 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:12:40,885 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:12:40,886 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:12:40,886 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:12:40,887 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:13:21,491 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:13:21,491 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:13:21,494 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:13:21,494 - __main__ - ERROR - authenticate - No refresh_token found.Please set access_type of OAuth to offline. Error
+2019-07-13 02:13:21,495 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:34:43,188 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:34:43,189 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:34:43,190 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:34:43,191 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:34:43,191 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:36:05,146 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:36:05,146 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:36:05,149 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:36:05,149 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:36:05,149 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:36:19,171 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:36:19,171 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:36:19,174 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:36:19,174 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:36:19,175 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:36:49,882 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:36:49,882 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:36:49,884 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:36:49,884 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:36:49,885 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:37:03,209 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:37:03,209 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:37:03,211 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:37:03,211 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:37:03,211 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:37:04,888 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 02:37:04,889 - __main__ - INFO - display_folder - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 02:37:04,889 - __main__ - INFO - display_folder - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 02:37:04,889 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 02:37:04,889 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 02:37:04,890 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 02:37:04,891 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 02:37:04,891 - __main__ - INFO - display_folder - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 02:37:04,891 - __main__ - INFO - display_folder - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 02:37:29,422 - __main__ - INFO - authenticate - Authenticating Google Drive API.
+2019-07-13 02:37:29,423 - __main__ - INFO - authenticate - Checking for credential file.
+2019-07-13 02:37:29,425 - __main__ - INFO - authenticate - Refreshing Auth Token.
+2019-07-13 02:37:29,425 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:37:29,426 - __main__ - INFO - authenticate - Authorization Complete.
+2019-07-13 02:37:31,138 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 02:37:31,138 - __main__ - INFO - display_folder - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 02:37:31,138 - __main__ - INFO - display_folder - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 02:37:31,138 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 02:37:31,138 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 02:37:31,139 - __main__ - INFO - display_folder - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 02:37:31,140 - __main__ - INFO - display_folder - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 02:37:47,220 - __main__ - ERROR - authenticate - 'GoogleAuth' object has no attribute 'refresh' - Error
+2019-07-13 02:38:21,223 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:38:48,939 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:39:24,600 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:42:57,947 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:44:16,356 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:46:10,729 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:46:30,622 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:46:33,457 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:47:14,864 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:47:49,852 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:48:16,789 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 02:48:26,699 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:07:08,107 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:16:15,057 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:16:37,145 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:17:11,913 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:17:17,608 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:17:19,202 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 03:17:19,202 - __main__ - WARNING - display_folder - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 03:17:19,203 - __main__ - WARNING - display_folder - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 03:17:19,203 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 03:17:19,203 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 03:17:19,203 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 03:17:19,203 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 03:17:19,204 - __main__ - WARNING - display_folder - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 03:19:04,818 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:19:06,534 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 03:21:35,312 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:21:37,566 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 03:21:55,562 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:21:57,199 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1moo3B03JIk0YYKkqzGy-_2njzzendYcv , mimeType : image/jpeg
+2019-07-13 03:21:57,199 - __main__ - WARNING - display_folder - Title : README.md , ID : 1Rue8C0ByW6xBTIngm-1PETKF7Y1NgWpT , mimeType : text/markdown
+2019-07-13 03:21:57,199 - __main__ - WARNING - display_folder - Title : README.md , ID : 1vD6U5YyL3eoyEgwmTb71rpMHgqXWKciR , mimeType : text/markdown
+2019-07-13 03:21:57,199 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1TudxB5B9C9uGeJve5pnIsjrLHOOxfz4x , mimeType : image/jpeg
+2019-07-13 03:21:57,199 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 11cXVSfi-zzwZR7WHxW54ppzsEcft2291 , mimeType : image/jpeg
+2019-07-13 03:21:57,200 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1RwApMfwagPIoQaQaydp9MGCbFEhkFhef , mimeType : image/jpeg
+2019-07-13 03:21:57,200 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 166y3uQOtwlYkR8iFHvvr6iTS1ZqSryY2 , mimeType : image/jpeg
+2019-07-13 03:21:57,200 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1eUJGw1S_IOGkgYgid6DPi69Dg4DwPfMM , mimeType : image/jpeg
+2019-07-13 03:21:57,201 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1Csm98tMVYum1oWLu9JAoRgBtSSPee527 , mimeType : image/jpeg
+2019-07-13 03:21:57,201 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1iBjTPvDi2Cme8HfjQooIosDf8boLOkNA , mimeType : image/jpeg
+2019-07-13 03:21:57,201 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 1Me_VBuQUUW6baQbrV88gn53dgSJscPQY , mimeType : image/jpeg
+2019-07-13 03:21:57,201 - __main__ - WARNING - display_folder - Title : photo.jpg , ID : 11PhOOl49tDRyRUu96TaiHeWf2IYTmpfC , mimeType : image/jpeg
+2019-07-13 03:21:57,202 - __main__ - WARNING - display_folder - Title : Udemy - Python , ID : 0B0CwctzKKHwwVC1pR3h3ZWp5TGs , mimeType : application/vnd.google-apps.folder
+2019-07-13 03:21:57,202 - __main__ - WARNING - display_folder - Title : Getting started , ID : 0B0CwctzKKHwwc3RhcnRlcl9maWxl , mimeType : application/pdf
+2019-07-13 03:22:06,191 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:31:25,582 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:31:37,564 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:32:00,412 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:33:02,442 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:33:28,342 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:37:30,021 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:37:32,235 - __main__ - ERROR - unknown_mimetype - File does not exist. 2No such file or directory
+2019-07-13 03:37:32,235 - __main__ - ERROR - unknown_mimetype - File does not exist. 2No such file or directory
+2019-07-13 03:39:24,635 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:39:26,222 - __main__ - ERROR - unknown_mimetype - File does not exist. 2No such file or directory
+2019-07-13 03:41:57,641 - __main__ - ERROR - exceptionWrapper - No refresh_token found.Please set access_type of OAuth to offline. - Error
+2019-07-13 03:41:59,477 - __main__ - ERROR - unknown_mimetype - File does not exist. 2No such file or directory

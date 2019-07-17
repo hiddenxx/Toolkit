@@ -7,8 +7,19 @@ from pydrive.files import *
 from googleapiclient.errors import HttpError
 from collections import defaultdict
 from pprint import pprint
-
+import json
 logger = logger.get_logger(__name__)
+
+logger.info("Configuring Paths.")
+config_path = "Google_Drive/config.json"
+
+def load_mimetype_json() :
+    with open(config_path,'r') as in_file:
+        data = json.load(in_file)
+        MimeType = data['mimeType']
+        return MimeType
+    # MimeType = {"application/vnd.google-apps.folder":"folder","image/jpeg":"image",
+    #             "application/vnd.google-apps.spreadsheet":"spreadsheet","text/plain":"text","application/pdf":"pdf"}
 
 def exceptionWrapper(function):
     try :
@@ -19,12 +30,12 @@ def authenticate():
     """
 		Authenticate to Google API
 	"""
-    settings_path = "Google_Drive/settings.yaml"
     logger.info("Authenticating Google Drive API.")
     gauth = GoogleAuth()
     # Try to load saved client credentials
     logger.info("Checking for credential file.")
-    gauth.LoadCredentialsFile("mycreds.txt")
+    gauth.LoadCredentialsFile("mycreds_googleDrive.txt")
+
     if gauth.credentials is None:
         # Authenticate if they're not there
         logger.info("Authenticating using Local Web Server.")
@@ -32,16 +43,13 @@ def authenticate():
     elif gauth.access_token_expired:
         # Refresh them if expired
         logger.info("Refreshing Auth Token.")
-        try:
-            exceptionWrapper(gauth.Refresh)
-        except Exception as e:
-            logger.error(f"{e} - Error")
+        gauth.Refresh()
     else:
         # Initialize the saved creds
         logger.info("Authorizing Saved credentials.")
         gauth.Authorize()
     # Save the current credentials to a file
-    gauth.SaveCredentialsFile("mycreds.txt")
+    gauth.SaveCredentialsFile("mycreds_googleDrive.txt")
     logger.info("Authorization Complete.")
     return GoogleDrive(gauth)
 
@@ -49,9 +57,11 @@ def get_folders(drive, parent_folder_id = "root"):
     # Auto-iterate through all files in the parent folder.
     file_list = GoogleDriveFileList()
     try:
+        logger.info(f"Searching Drive for {parent_folder_id}")
         file_list = drive.ListFile(
 			{'q': "'{0}' in parents and trashed=false".format(parent_folder_id)}
 		).GetList()
+        logger.info(f"{file_list}")
 	# Exit if the parent folder doesn't exist
     except googleapiclient.errors.HttpError as err:
 		# Parse error message
@@ -65,8 +75,6 @@ def get_folders(drive, parent_folder_id = "root"):
             logger.info(f"Exiting : {message}")
             raise
 
-	# Find the the destination folder in the parent folder's files
-
     return file_list
 
 def display_folder(file_list) :
@@ -75,12 +83,27 @@ def display_folder(file_list) :
     else :
         count = 1
         for file1 in file_list:
-
-                print(f"Title : {file1['title']} , ID : {file1['id']}")
-                pprint.pprint(file1)
                 logger.debug(f"Title : {file1['title']} , ID : {file1['id']} , mimeType : {file1['mimeType']}")
-                print(f"{count}.{file1['title']}", sep=' ', end='\n', file=sys.stdout, flush=False)
+                MimeType = load_mimetype_json()
+                mimetype = MimeType.get(file1['mimeType'], "Unknown")
+                if mimetype == "Unknown" :
+                    unknown_mimetype(file1['mimeType']) #Sends mimetype.
+                print(f"{count}.{file1['title']} - {mimetype}",end='\n')
                 count += 1
+
+def unknown_mimetype(mimeType):
+    # We will write a JSON file for the mimetype checks.
+    try :
+        with open(config_path,'r') as in_file:
+            data = json.load(in_file)
+            d1 = {mimeType : mimeType}
+            data['mimeType'].update(d1)
+        with open(config_path, mode='w') as out_file:
+            out_file.write(json.dumps(data,indent=4,sort_keys=True))
+    except IOError as e :
+        logger.error(f"File does not exist. {e.errno}{e.strerror}")
+    except :
+        raise
 
 def remove_all_duplicateFiles():
     # if file1['mimeType'] != "application/vnd.google-apps.folder" :
@@ -167,5 +190,7 @@ def upload_files(drive, folder_id, src_folder_name):
             print('File {0} is empty'.format(file1))
             logger.info('File {0} is empty'.format(file1))
 
+def display_files_and_folders():
+    return display_folder(get_folders(drive))
+
 drive = authenticate()
-display_folder(get_folders(drive, 'root'))

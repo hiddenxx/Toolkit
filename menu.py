@@ -1,5 +1,15 @@
 # A Menu consists of one or more sub-Menu objects that a user can choose
 # to run or subroutines that the user can call.
+
+
+import sys
+sys.path.insert(0,'/hiddenx/Toolkit/Google_Drive')
+sys.path.insert(1,'/hiddenx/Toolkit/toolkitlogs')
+
+from gDriver import display_files_and_folders
+import logger
+
+logger = logger.get_logger(__name__)
 class Menu:
 
     # Constructor
@@ -65,21 +75,26 @@ class Menu:
                         self.display()
             except ValueError:
                 self.displayError()
+def Return():
+    return
+def Exit():
+    exit(1)
+
 
 def menuController():
     mainMenu = Menu()
-    mainMenu = setPrompt("Toolkit for SOCs")
-
-    googleMenu = menu.Menu()
-    googleObj = Toolkit()
+    mainMenu.setPrompt("Toolkit for SOCs")
+    logger.info("Setting up Menu.")
+    googleMenu = Menu()
     googleMenu.setPrompt("Select an Option\n")
-    googleMenu.addOption(1,"Google Drive File Uploader",googleObj.google_drive_uploader,False)
-    googleMenu.addOption(2,"Google Drive Root Updater",googleObj.google_drive_rootUpdate,False)
-    googleMenu.addOption(3,"Return",Return,True)
+    googleMenu.addOption(1,"Display",display_files_and_folders,False)
+    googleMenu.addOption(2,"Return",Return,True)
 
-    mmObj.addOption(1,"Google Drive Toolkit",googleMenu,False)
-    mmObj.addOption(2,"Exit",Exit,True)
-    mmObj.run()
+    mainMenu.addOption(1,"Google Drive Toolkit",googleMenu,False)
+    mainMenu.addOption(2,"Exit",Exit,True)
+    mainMenu.run()
+
+menuController()
 # def Option1():
 #     values = input("\n\tEnter some values: ")
 #     print("\n\tYou entered these values:", end=" ")

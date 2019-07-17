@@ -8,4 +8,5 @@ token.pickle
 credentials.json
 client_secrets.json
 /toolkitlogs/my_app.log
-mycreds.txt
+mycreds_googleDrive.txt
+settings.yaml
